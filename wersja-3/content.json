@@ -1,0 +1,77 @@
+{
+  "meta": {
+    "title": "Ewa Stanek | Fizjoterapia dziecięca Rzeszów",
+    "description": "Ewa Stanek – fizjoterapeutka dziecięca w Rzeszowie. Doświadczenie, uważność i terapia dopasowana do dziecka."
+  },
+  "brand": {
+    "name": "Ewa Stanek",
+    "subtitle": "fizjoterapia dziecięca"
+  },
+  "hero": {
+    "eyebrow": "Fizjoterapia dziecięca · Rzeszów",
+    "title": "Ewa Stanek",
+    "subtitle": "Fizjoterapeutka dziecięca",
+    "lead": "Doświadczenie, uważność i terapia dopasowana do dziecka.",
+    "text": "Wspieram dzieci w rozwoju ruchowym, dobierając terapię indywidualnie do ich możliwości i potrzeb.",
+    "image": {
+      "src": "https://holisfera.rzeszow.pl/userfiles/media/default/tmp_1.JPG",
+      "alt": "Ewa Stanek – fizjoterapeutka dziecięca"
+    }
+  },
+  "about": {
+    "eyebrow": "O mnie",
+    "title": "Pracuję z dziećmi i ich rodzinami od wielu lat.",
+    "paragraphs": [
+      "Ukończyłam fizjoterapię na Uniwersytecie Rzeszowskim. Jestem certyfikowaną terapeutką NDT Bobath, NDT Bobath Baby, PNF oraz trójpłaszczyznowej manualnej terapii wad stóp wg Barbary Zukunft-Huber.",
+      "Przez 14 lat byłam związana z Ośrodkiem Rehabilitacyjno-Edukacyjno-Wychowawczym w Rzeszowie, gdzie zdobywałam doświadczenie w pracy z dziećmi o zróżnicowanych potrzebach rozwojowych.",
+      "Pracuję również w Stowarzyszeniu Titum, Ośrodku Wczesnej Interwencji oraz Centrum Medycznym Holisfera."
+    ]
+  },
+  "scope": {
+    "eyebrow": "Zakres pracy",
+    "title": "W czym wspieram dzieci",
+    "items": [
+      "rozwój ruchowy",
+      "napięcie mięśniowe",
+      "asymetria",
+      "opóźniony rozwój psychoruchowy",
+      "postawa i stopy",
+      "długofalowe wsparcie neurorozwojowe"
+    ]
+  },
+  "experience": {
+    "eyebrow": "Doświadczenie i metody",
+    "title": "Wiedza oparta na praktyce.",
+    "highlight": "14 lat doświadczenia w OREW w Rzeszowie",
+    "methods": [
+      "NDT Bobath",
+      "NDT Bobath Baby",
+      "PNF",
+      "Terapia wad stóp wg B. Zukunft-Huber"
+    ]
+  },
+  "development": {
+    "eyebrow": "Ciągły rozwój",
+    "title": "Stale się dokształcam.",
+    "text": "Fizjoterapia dziecięca stale się rozwija, dlatego regularnie uczestniczę w kursach, szkoleniach i warsztatach. Pozwala mi to poszerzać wiedzę i korzystać z aktualnych podejść terapeutycznych.",
+    "note": "Poniższa lista jest przykładowym szablonem do uzupełnienia.",
+    "courses": [
+      {"title": "Kurs 1", "meta": "organizator · rok"},
+      {"title": "Warsztat 2", "meta": "organizator · rok"},
+      {"title": "Szkolenie 3", "meta": "organizator · rok"},
+      {"title": "Kurs 4", "meta": "organizator · rok"}
+    ]
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Centrum Medyczne Holisfera",
+    "address": "Jana Pawła II 181/104, 35-317 Rzeszów",
+    "note": "Wizyty stacjonarne · Budziwój",
+    "bookingLabel": "Umów wizytę",
+    "bookingUrl": "https://www.znanylekarz.pl/ewa-stanek-3/fizjoterapeuta-dzieciecy/rzeszow"
+  },
+  "footer": {
+    "compare": "Porównaj z wersją 1",
+    "compareUrl": "../"
+  }
+}

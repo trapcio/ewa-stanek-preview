@@ -1,0 +1,194 @@
+{
+  "_note": "Edytuj ten plik, aby zmieniać treści wersji 2. Zachowaj poprawny format JSON: teksty w cudzysłowach, przecinki między polami i elementami list.",
+  "meta": {
+    "title": "Ewa Stanek | Fizjoterapia dziecięca – wersja 2",
+    "description": "Ewa Stanek – fizjoterapia dziecięca w Rzeszowie. Spokojna konsultacja, konkretne odpowiedzi i wsparcie rozwoju niemowląt oraz dzieci."
+  },
+  "booking": {
+    "url": "https://www.znanylekarz.pl/ewa-stanek-3/fizjoterapeuta-dzieciecy/rzeszow",
+    "primaryLabel": "Umów konsultację",
+    "availabilityLabel": "Sprawdź wolne terminy"
+  },
+  "compareBar": {
+    "label": "Wersja 2 · podejście skoncentrowane na rodzicu",
+    "linkLabel": "Zobacz wersję 1 →"
+  },
+  "brand": {
+    "name": "Ewa Stanek",
+    "subtitle": "fizjoterapia dziecięca"
+  },
+  "navigation": [
+    { "label": "Kiedy przyjść?", "href": "#kiedy" },
+    { "label": "Pierwsza wizyta", "href": "#pierwsza-wizyta" },
+    { "label": "O mnie", "href": "#o-mnie" }
+  ],
+  "hero": {
+    "eyebrow": "Fizjoterapia dziecięca · Rzeszów",
+    "titleBefore": "Niepokoi Cię sposób, w jaki ",
+    "titleEmphasis": "porusza się Twoje dziecko?",
+    "lead": "Podczas spokojnej konsultacji ocenię rozwój ruchowy dziecka, wyjaśnię Ci, co obserwuję i pokażę, co możesz robić na co dzień.",
+    "secondaryCtaLabel": "Sprawdź, kiedy warto przyjść",
+    "secondaryCtaHref": "#kiedy",
+    "trustItems": [
+      "14 lat doświadczenia w OREW",
+      "NDT Bobath Baby",
+      "Wczesna interwencja"
+    ],
+    "image": {
+      "src": "https://holisfera.rzeszow.pl/userfiles/media/default/tmp_1.JPG",
+      "alt": "Ewa Stanek – fizjoterapeutka dziecięca"
+    },
+    "noteTitle": "Spokojnie i konkretnie",
+    "noteText": "Najpierw obserwacja i rozmowa. Potem decyzja, czy i jak działać dalej."
+  },
+  "afterFirstVisit": {
+    "eyebrow": "Po pierwszej wizycie",
+    "title": "Będziesz wiedzieć, co dalej.",
+    "items": [
+      "jak oceniam aktualny rozwój ruchowy dziecka",
+      "czy widzę obszar wymagający wsparcia lub obserwacji",
+      "czy potrzebna jest terapia, kontrola czy po prostu czas",
+      "co możesz robić z dzieckiem w domu na co dzień"
+    ]
+  },
+  "whenToCome": {
+    "eyebrow": "Kiedy warto przyjść?",
+    "title": "Nie musisz znać diagnozy. Wystarczy, że coś Cię zastanawia.",
+    "intro": "Rodzice często zgłaszają się nie dlatego, że wiedzą, co jest problemem, ale dlatego, że widzą coś nietypowego. To wystarczający powód, by spokojnie to sprawdzić.",
+    "items": [
+      { "icon": "↔", "title": "Asymetria", "text": "Dziecko często patrzy lub układa się głównie w jedną stronę." },
+      { "icon": "↕", "title": "Napięcie", "text": "Wydaje Ci się bardzo wiotkie, sztywne albo trudno je swobodnie ułożyć." },
+      { "icon": "↗", "title": "Tempo rozwoju", "text": "Niepokoi Cię sposób obracania, siadania, raczkowania lub chodzenia." },
+      { "icon": "◌", "title": "Brzuch i podpór", "text": "Dziecko bardzo nie lubi leżenia na brzuchu albo trudno mu utrzymać podpór." },
+      { "icon": "◇", "title": "Stopy i postawa", "text": "Zwraca Twoją uwagę ustawienie stóp, nóg lub sposób stania i chodzenia." },
+      { "icon": "?", "title": "Po prostu chcesz sprawdzić", "text": "Nie masz pewności, czy rozwój przebiega prawidłowo i potrzebujesz rzetelnej oceny." }
+    ]
+  },
+  "guide": {
+    "eyebrow": "Mały przewodnik dla rodzica",
+    "title": "Co Cię niepokoi?",
+    "intro": "Wybierz wiek dziecka, a potem obszar, który zwrócił Twoją uwagę. To nie jest test diagnostyczny — tylko pomoc w uporządkowaniu obserwacji przed konsultacją.",
+    "initialKicker": "Na początek",
+    "initialTitle": "Wybierz jedną z obserwacji po lewej.",
+    "initialText": "Pokażę Ci, co można sprawdzić podczas konsultacji i czego możesz się po niej spodziewać.",
+    "resultKicker": "Co można sprawdzić?",
+    "resultFooter": "Po konsultacji dostaniesz jasną informację, co obserwuję i jakie kolejne kroki mają sens.",
+    "ageGroups": [
+      {
+        "id": "0-6",
+        "label": "0–6 mies.",
+        "items": [
+          { "label": "Główka głównie w jedną stronę", "text": "Podczas konsultacji mogę ocenić asymetrię ułożeniową, sposób organizowania ruchu i to, czy potrzebne jest dalsze wsparcie." },
+          { "label": "Nie lubi leżenia na brzuchu", "text": "Sprawdzę podpór, pracę obręczy barkowej, napięcie i sposób, w jaki dziecko radzi sobie w tej pozycji." },
+          { "label": "Wydaje się bardzo wiotkie lub napięte", "text": "Ocenię jakość ruchu i napięcie mięśniowe oraz wyjaśnię, czy widzę coś, co warto dalej obserwować lub wspierać." },
+          { "label": "Rozwój ruchowy mnie niepokoi", "text": "Możemy potraktować wizytę jako spokojną ocenę etapu rozwoju i omówić, czego można się spodziewać dalej." }
+        ]
+      },
+      {
+        "id": "6-12",
+        "label": "6–12 mies.",
+        "items": [
+          { "label": "Nie obraca się lub robi to tylko w jedną stronę", "text": "Sprawdzę jakość obrotów, symetrię i sposób przenoszenia ciężaru podczas ruchu." },
+          { "label": "Nie siada / siada nietypowo", "text": "Ocenię kontrolę tułowia, podpory i sposób dochodzenia do siadu zamiast patrzeć wyłącznie na wiek dziecka." },
+          { "label": "Nie raczkuje albo porusza się asymetrycznie", "text": "Sprawdzę organizację ruchu, pracę kończyn i to, czy obecny sposób przemieszczania wymaga wsparcia." },
+          { "label": "Chcę sprawdzić rozwój", "text": "Jeśli nie masz konkretnego problemu, konsultacja może po prostu uporządkować obserwacje i dać Ci jasność, co dalej." }
+        ]
+      },
+      {
+        "id": "1+",
+        "label": "1+ rok",
+        "items": [
+          { "label": "Niepokoi mnie chód", "text": "Mogę ocenić sposób stawiania stóp, pracę nóg i tułowia oraz ogólną jakość chodu." },
+          { "label": "Martwi mnie ustawienie stóp", "text": "Sprawdzę ustawienie stóp i kończyn dolnych oraz podpowiem, czy potrzebna jest dalsza obserwacja lub terapia." },
+          { "label": "Dziecko często się potyka", "text": "Ocenię kontrolę ruchu, równowagę i sposób poruszania się w codziennych sytuacjach." },
+          { "label": "Rozwój ruchowy jest wolniejszy", "text": "Sprawdzimy aktualne możliwości dziecka i ustalimy, czy potrzebne jest wsparcie, kontrola czy po prostu więcej czasu." }
+        ]
+      }
+    ]
+  },
+  "firstVisit": {
+    "eyebrow": "Pierwsza wizyta",
+    "title": "Bez pośpiechu. Krok po kroku.",
+    "intro": "Nie zaczynam od gotowego schematu ćwiczeń. Najpierw chcę zobaczyć dziecko w ruchu i zrozumieć, co zauważyliście w domu.",
+    "steps": [
+      { "title": "Rozmowa", "text": "Pytam o rozwój dziecka, codzienność, wcześniejsze zalecenia i to, co najbardziej Cię niepokoi." },
+      { "title": "Obserwacja i badanie", "text": "Patrzę na spontaniczny ruch, napięcie, reakcje i sposób organizowania pozycji ciała." },
+      { "title": "Wyjaśnienie", "text": "Mówię prostym językiem, co widzę i czy jest coś, co warto wspierać lub obserwować." },
+      { "title": "Plan", "text": "Jeśli jest taka potrzeba, ustalamy dalsze kroki i wskazówki możliwe do zastosowania w domu." }
+    ],
+    "practicalTitle": "Przed wizytą warto wiedzieć",
+    "practicalItems": [
+      { "title": "Co zabrać?", "text": "Dokumentację medyczną, jeśli ją masz, oraz rzeczy potrzebne dziecku na co dzień." },
+      { "title": "Jak ubrać dziecko?", "text": "Wygodnie. Podczas oceny może być potrzebne swobodne obserwowanie ruchu." },
+      { "title": "Czy rodzic jest obecny?", "text": "Tak — współpraca z rodzicem jest ważną częścią konsultacji." }
+    ]
+  },
+  "about": {
+    "eyebrow": "O mnie",
+    "title": "Pracuję z dzieckiem, ale jestem też obok rodzica.",
+    "paragraphs": [
+      "Ukończyłam fizjoterapię na Uniwersytecie Rzeszowskim. Jestem certyfikowaną terapeutką NDT Bobath, NDT Bobath Baby, PNF oraz trójpłaszczyznowej manualnej terapii wad stóp wg Barbary Zukunft-Huber.",
+      "Przez 14 lat byłam związana z Ośrodkiem Rehabilitacyjno-Edukacyjno-Wychowawczym w Rzeszowie. Pracuję również w Stowarzyszeniu Titum, Ośrodku Wczesnej Interwencji i Centrum Medycznym Holisfera."
+    ],
+    "methods": ["NDT Bobath", "NDT Bobath Baby", "PNF", "Terapia stóp"],
+    "image": {
+      "src": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Baby_%2820339%29.jpg",
+      "alt": "Niemowlę trzymane na rękach – zdjęcie demonstracyjne CC0",
+      "caption": "Zdjęcie demonstracyjne · docelowo podmień na własne"
+    }
+  },
+  "development": {
+    "eyebrow": "Ciągły rozwój",
+    "title": "Stale się dokształcam.",
+    "intro": "Fizjoterapia dziecięca stale się rozwija, dlatego regularnie uczestniczę w kursach, szkoleniach i warsztatach. Pozwala mi to aktualizować wiedzę, poznawać nowe spojrzenia i jeszcze lepiej dopasowywać terapię do potrzeb dziecka i jego rodziny.",
+    "templateNote": "Poniższa lista jest obecnie przykładowym szablonem — docelowo wpisz tutaj rzeczywiste szkolenia, organizatorów i lata.",
+    "courses": [
+      { "type": "Kurs", "title": "Kurs 1 – rozwój neuroruchowy niemowląt", "meta": "organizator · rok" },
+      { "type": "Warsztat", "title": "Warsztat 2 – asymetria i napięcie mięśniowe", "meta": "organizator · rok" },
+      { "type": "Szkolenie", "title": "Kurs 3 – terapia funkcjonalna małego dziecka", "meta": "organizator · rok" },
+      { "type": "Kurs", "title": "Kurs 4 – rozwój stóp i chodu", "meta": "organizator · rok" },
+      { "type": "Warsztat", "title": "Warsztat 5 – komunikacja i współpraca z rodzicem", "meta": "organizator · rok" },
+      { "type": "Konferencja", "title": "Kurs 6 – współczesna fizjoterapia pediatryczna", "meta": "organizator · rok" }
+    ]
+  },
+  "video": {
+    "eyebrow": "Element wyróżniający",
+    "title": "Poznaj mnie w 60 sekund.",
+    "text": "Tu proponuję później wstawić krótkie, naturalne wideo Ewy: kim jest, jak wygląda pierwsza konsultacja i czego rodzic może się spodziewać.",
+    "placeholderTitle": "Miejsce na krótkie wideo",
+    "placeholderMeta": "40–60 sekund · pionowe lub poziome"
+  },
+  "reviews": {
+    "eyebrow": "Opinie rodziców",
+    "title": "Najczęściej doceniają spokój i jasne wyjaśnienia.",
+    "intro": "Zamiast eksponować samą liczbę opinii, pokazuję to, co powtarza się w nich najczęściej.",
+    "items": [
+      "Spokojne podejście do niemowlęcia i dokładne tłumaczenie tego, co dzieje się podczas wizyty.",
+      "Zaangażowanie, cierpliwość i indywidualne dopasowanie pracy do potrzeb dziecka.",
+      "Konkretne wskazówki przekazane prostym językiem i możliwe do zastosowania w domu."
+    ],
+    "sourceLabel": "Podsumowanie opinii · ZnanyLekarz"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Pytania, które naprawdę zadają rodzice.",
+    "items": [
+      { "question": "Czy warto przyjść profilaktycznie, jeśli nie mam pewności, czy coś jest nie tak?", "answer": "Taką wizytę można potraktować jako konsultację i ocenę rozwoju. Jeżeli nie widzę potrzeby terapii, po prostu to wyjaśnię i podpowiem, co obserwować dalej." },
+      { "question": "Czy na pierwszej wizycie dziecko od razu będzie ćwiczyć?", "answer": "Pierwsza wizyta zaczyna się od rozmowy i obserwacji. Jeśli terapia jest potrzebna, jej elementy mogą pojawić się już podczas konsultacji, ale najważniejsze jest najpierw zrozumienie sytuacji." },
+      { "question": "Czy rodzic dostaje wskazówki do domu?", "answer": "Tak. Zależy mi, aby były proste i możliwe do wykorzystania w zwykłej pielęgnacji, zabawie i codziennych sytuacjach." },
+      { "question": "Jak często odbywają się wizyty?", "answer": "To zależy od potrzeb dziecka. Częstotliwość ustalam indywidualnie po ocenie, zamiast z góry zakładać określony schemat." }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Rzeszów · Holisfera",
+    "title": "Masz pytania o rozwój swojego dziecka?",
+    "text": "Umów konsultację i spokojnie sprawdźmy, czego potrzebuje na tym etapie.",
+    "place": "Centrum Medyczne Holisfera",
+    "address": "Jana Pawła II 181/104 · Rzeszów"
+  },
+  "footer": {
+    "name": "Ewa Stanek",
+    "subtitle": "Fizjoterapia dziecięca · Rzeszów",
+    "compareLabel": "← Porównaj z wersją 1"
+  }
+}

@@ -6,9 +6,24 @@
   <meta name="description" content="">
   <meta name="theme-color" content="#153f38">
   <title>Ewa Stanek | Fizjoterapia dziecięca</title>
-  <link rel="stylesheet" href="style-a.css">
-  <link rel="stylesheet" href="style-b.css">
-  <link rel="stylesheet" href="style-c.css">
+  <link rel="stylesheet" href="style-a.css?v=20260915-2">
+  <link rel="stylesheet" href="style-b.css?v=20260915-2">
+  <link rel="stylesheet" href="style-c.css?v=20260915-2">
+  <style>
+    .development-section{padding:90px 0;background:#f2eee5}
+    .development-head{display:grid;grid-template-columns:1.05fr .95fr;gap:64px;align-items:end;margin-bottom:28px}
+    .development-head h2{margin:8px 0 0;font-size:clamp(34px,5vw,58px);line-height:1.02;letter-spacing:-.04em}
+    .development-head>p{margin:0;color:var(--muted);font-size:17px;line-height:1.75}
+    .template-note{margin:0 0 28px;padding:14px 16px;border:1px dashed rgba(21,63,56,.22);border-radius:14px;background:rgba(255,255,255,.56);color:var(--muted);font-size:13px}
+    .development-section .course-grid{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:22px!important;align-items:stretch}
+    .development-section .course-card{display:flex!important;flex-direction:column!important;min-height:190px!important;padding:26px!important;border:1px solid rgba(21,63,56,.13)!important;border-radius:22px!important;background:#fff!important;box-shadow:0 14px 36px rgba(21,63,56,.08)!important;position:relative;overflow:hidden}
+    .development-section .course-card:before{content:"";position:absolute;inset:0 0 auto 0;height:4px;background:#d7a493}
+    .development-section .course-card>span{display:inline-flex!important;align-self:flex-start;padding:6px 10px;border-radius:999px;background:#edf3f0;color:var(--green);font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+    .development-section .course-card h3{margin:18px 0 12px!important;font-size:19px!important;line-height:1.3!important}
+    .development-section .course-card small{display:block;margin-top:auto;color:var(--muted);font-size:12px}
+    @media(max-width:900px){.development-head{grid-template-columns:1fr;gap:18px}.development-section .course-grid{grid-template-columns:repeat(2,minmax(0,1fr))!important}}
+    @media(max-width:620px){.development-section{padding:64px 0}.development-section .course-grid{grid-template-columns:1fr!important}}
+  </style>
 </head>
 <body>
   <div class="compare-bar">
@@ -202,6 +217,6 @@
     </div>
   </footer>
 
-  <script src="content.js"></script>
+  <script src="content.js?v=20260915-2"></script>
 </body>
 </html>

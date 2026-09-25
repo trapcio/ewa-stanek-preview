@@ -5,10 +5,36 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Ewa Stanek – fizjoterapia dziecięca. Wersja 4 z jaśniejszymi wariantami kolorystycznymi.">
   <title>Ewa Stanek – wersja 4 | warianty kolorystyczne</title>
-  <link rel="stylesheet" href="style.css?v=1">
+  <link rel="stylesheet" href="style.css?v=2">
 </head>
 <body>
-  <div class="version-switch"><div class="wrap"><strong>Porównaj wersje:</strong><a href="../">Wersja 1</a><a href="../wersja-2/">Wersja 2</a><a href="../wersja-3/">Wersja 3</a><a class="current" href="./">Wersja 4</a></div></div>
+  <div class="version-switch">
+    <div class="wrap">
+      <div class="version-links">
+        <strong>Porównaj wersje:</strong>
+        <a href="../">Wersja 1</a>
+        <a href="../wersja-2/">Wersja 2</a>
+        <a href="../wersja-3/">Wersja 3</a>
+        <a class="current" href="./">Wersja 4</a>
+      </div>
+      <label class="theme-select-wrap">
+        <span>Kolorystyka:</span>
+        <select id="themeSelect" aria-label="Wybierz kolorystykę strony">
+          <option value="sage">Szałwia</option>
+          <option value="sand">Piaskowy</option>
+          <option value="blush">Pudrowy</option>
+          <option value="sky">Jasny błękit</option>
+          <option value="pure">Czysta biel</option>
+          <option value="pearl">Perłowa</option>
+          <option value="coolwhite">Chłodna biel</option>
+          <option value="mist">Mglista biel</option>
+          <option value="mint">Biała mięta</option>
+          <option value="lavender">Biała lawenda</option>
+          <option value="rosewhite">Różowa biel</option>
+        </select>
+      </label>
+    </div>
+  </div>
 
   <div class="topbar">
     <div class="wrap topbar-inner">
@@ -20,23 +46,8 @@
             <small>Wersja 4 · jaśniejsze warianty kolorystyczne</small>
           </div>
         </div>
-        <div class="nav-note">Na górze możesz przełączać kilka jaśniejszych propozycji kolorystycznych.</div>
       </div>
 
-      <div class="theme-switcher">
-        <span class="theme-label">Kolory:</span>
-        <button class="theme-btn active" data-theme="sage"><span class="swatch" style="background:linear-gradient(90deg,#f7f4ee 50%,#7f9b90 50%)"></span>Szałwia</button>
-        <button class="theme-btn" data-theme="sand"><span class="swatch" style="background:linear-gradient(90deg,#faf6ef 50%,#c9a67f 50%)"></span>Piaskowy</button>
-        <button class="theme-btn" data-theme="blush"><span class="swatch" style="background:linear-gradient(90deg,#fcf6f5 50%,#d3a5a0 50%)"></span>Pudrowy</button>
-        <button class="theme-btn" data-theme="sky"><span class="swatch" style="background:linear-gradient(90deg,#f6f8fb 50%,#91a9bf 50%)"></span>Jasny błękit</button>
-        <button class="theme-btn" data-theme="pure"><span class="swatch" style="background:linear-gradient(90deg,#ffffff 50%,#8da39a 50%)"></span>Czysta biel</button>
-        <button class="theme-btn" data-theme="pearl"><span class="swatch" style="background:linear-gradient(90deg,#fbfbfa 50%,#a7aaa4 50%)"></span>Perłowa</button>
-        <button class="theme-btn" data-theme="coolwhite"><span class="swatch" style="background:linear-gradient(90deg,#fafcff 50%,#93a8ba 50%)"></span>Chłodna biel</button>
-        <button class="theme-btn" data-theme="mist"><span class="swatch" style="background:linear-gradient(90deg,#f7f8f8 50%,#9da9a5 50%)"></span>Mglista biel</button>
-        <button class="theme-btn" data-theme="mint"><span class="swatch" style="background:linear-gradient(90deg,#fbfdfc 50%,#91b0a4 50%)"></span>Biała mięta</button>
-        <button class="theme-btn" data-theme="lavender"><span class="swatch" style="background:linear-gradient(90deg,#fcfbfd 50%,#aaa1bf 50%)"></span>Biała lawenda</button>
-        <button class="theme-btn" data-theme="rosewhite"><span class="swatch" style="background:linear-gradient(90deg,#fffdfd 50%,#c3a1a4 50%)"></span>Różowa biel</button>
-      </div>
     </div>
   </div>
 
@@ -182,6 +193,6 @@
     <footer>Wersja demonstracyjna · kilka jaśniejszych propozycji kolorystycznych dla wersji 4.</footer>
   </main>
 
-  <script src="themes.js?v=1"></script>
+  <script src="themes.js?v=2"></script>
 </body>
 </html>

@@ -1,0 +1,55 @@
+body[data-ewa-theme]{
+  background:var(--bg)!important;
+  color:var(--text)!important;
+}
+body[data-ewa-theme] nav{
+  background:var(--card)!important;
+  border-color:var(--line)!important;
+}
+body[data-ewa-theme] .hero-shell,
+body[data-ewa-theme] .hero-copy,
+body[data-ewa-theme] .service,
+body[data-ewa-theme] .step,
+body[data-ewa-theme] .visit-card,
+body[data-ewa-theme] .price-card,
+body[data-ewa-theme] details,
+body[data-ewa-theme] .concern-grid article,
+body[data-ewa-theme] .visit-steps article,
+body[data-ewa-theme] .about-copy,
+body[data-ewa-theme] .reviews article,
+body[data-ewa-theme] .method-list div,
+body[data-ewa-theme] .course,
+body[data-ewa-theme] .section-card,
+body[data-ewa-theme] .contact-card:not(.contact-section .contact-card){
+  border-color:var(--line)!important;
+}
+body[data-ewa-theme] .steps-section,
+body[data-ewa-theme] .about-section,
+body[data-ewa-theme] .development,
+body[data-ewa-theme] .development-section,
+body[data-ewa-theme] .soft{
+  background:var(--card-2)!important;
+}
+body[data-ewa-theme] .story-copy,
+body[data-ewa-theme] .reviews-wrap,
+body[data-ewa-theme] .answers-card,
+body[data-ewa-theme] .guide-shell,
+body[data-ewa-theme] .video-card,
+body[data-ewa-theme] .contact-section .contact-card{
+  background:var(--forest)!important;
+}
+body[data-ewa-theme] .method-strip,
+body[data-ewa-theme] .final-shell{
+  background:linear-gradient(135deg,var(--card-2),var(--card))!important;
+}
+body[data-ewa-theme] .practical-box{
+  background:var(--card-2)!important;
+}
+body[data-ewa-theme] .guide-result,
+body[data-ewa-theme] .course-card{
+  background:var(--card)!important;
+}
+body[data-ewa-theme] .theme-accent,
+body[data-ewa-theme] .course-card:before{
+  background:var(--accent)!important;
+}

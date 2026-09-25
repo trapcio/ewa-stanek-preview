@@ -12,12 +12,25 @@ const themes = {
       rosewhite: {'--bg':'#fffdfd','--card':'#ffffff','--card-2':'#f8f2f3','--text':'#3e3436','--muted':'#7c6d70','--accent':'#c3a1a4','--accent-2':'#ead7d8','--line':'rgba(62,52,54,.10)','--button':'#b99599','--button-text':'#ffffff','--shadow':'0 18px 40px rgba(68,51,55,.055)'}
     };
 
-    const buttons = document.querySelectorAll('.theme-btn');
-    buttons.forEach(btn => {
-      btn.addEventListener('click', () => {
-        const theme = themes[btn.dataset.theme];
-        Object.entries(theme).forEach(([k, v]) => document.documentElement.style.setProperty(k, v));
-        buttons.forEach(b => b.classList.remove('active'));
-        btn.classList.add('active');
-      });
-    });
+    const select = document.getElementById('themeSelect');
+
+function applyTheme(name){
+  const theme = themes[name];
+  if(!theme) return;
+  Object.entries(theme).forEach(([key,value]) => {
+    document.documentElement.style.setProperty(key,value);
+  });
+  try { localStorage.setItem('ewaTheme', name); } catch {}
+}
+
+let initialTheme = 'sage';
+try {
+  const savedTheme = localStorage.getItem('ewaTheme');
+  if(savedTheme && themes[savedTheme]) initialTheme = savedTheme;
+} catch {}
+
+if(select){
+  select.value = initialTheme;
+  applyTheme(initialTheme);
+  select.addEventListener('change', () => applyTheme(select.value));
+}

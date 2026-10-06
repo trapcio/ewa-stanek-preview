@@ -12,6 +12,49 @@ const EWA_THEMES = {
   rosewhite: {bg:'#fffdfd',card:'#ffffff',card2:'#f8f2f3',text:'#3e3436',muted:'#7c6d70',accent:'#c3a1a4',accent2:'#ead7d8',dark:'#8f6c70',line:'rgba(62,52,54,.10)',button:'#b99599',buttonText:'#ffffff',shadow:'0 18px 40px rgba(68,51,55,.055)'}
 };
 
+const EWA_THEME_LABELS = {
+  sage:'Szałwia',
+  sand:'Piaskowy',
+  blush:'Pudrowy',
+  sky:'Jasny błękit',
+  pure:'Czysta biel',
+  pearl:'Perłowa',
+  coolwhite:'Chłodna biel',
+  mist:'Mglista biel',
+  mint:'Biała mięta',
+  lavender:'Biała lawenda',
+  rosewhite:'Różowa biel'
+};
+
+function ensureEwaThemeSelect(){
+  let select=document.getElementById('globalThemeSelect');
+  if(select) return select;
+
+  const inner=document.querySelector('.global-preview-switcher .gps-inner');
+  if(!inner) return null;
+
+  const label=document.createElement('label');
+  label.className='gps-theme';
+
+  const caption=document.createElement('span');
+  caption.textContent='Kolorystyka:';
+
+  select=document.createElement('select');
+  select.id='globalThemeSelect';
+  select.setAttribute('aria-label','Wybierz kolorystykę strony');
+
+  Object.entries(EWA_THEME_LABELS).forEach(([value,text])=>{
+    const option=document.createElement('option');
+    option.value=value;
+    option.textContent=text;
+    select.appendChild(option);
+  });
+
+  label.append(caption,select);
+  inner.appendChild(label);
+  return select;
+}
+
 function applyEwaTheme(name){
   const t=EWA_THEMES[name];
   if(!t) return;
@@ -28,12 +71,23 @@ function applyEwaTheme(name){
     '--shadow-soft':t.shadow
   };
   Object.entries(vars).forEach(([k,v])=>r.style.setProperty(k,v));
+
+  const professionalVars={
+    '--pro-bg':t.bg,
+    '--pro-ink':t.text,
+    '--pro-muted':t.muted,
+    '--pro-accent':t.button,
+    '--pro-soft':t.card2,
+    '--pro-border':t.line
+  };
+  Object.entries(professionalVars).forEach(([k,v])=>document.body.style.setProperty(k,v));
+
   document.body.dataset.ewaTheme=name;
   try{localStorage.setItem('ewaTheme',name)}catch{}
 }
 
 document.addEventListener('DOMContentLoaded',()=>{
-  const select=document.getElementById('globalThemeSelect');
+  const select=ensureEwaThemeSelect();
   let selected='sage';
   try{
     const saved=localStorage.getItem('ewaTheme');

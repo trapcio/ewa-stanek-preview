@@ -44,8 +44,8 @@
       "Wczesna interwencja"
     ],
     "image": {
-      "src": "https://holisfera.rzeszow.pl/userfiles/media/default/tmp_1.JPG",
-      "alt": "Ewa Stanek – fizjoterapeutka dziecięca"
+      "src": "/ewa-stanek-preview/assets/ewa/portrait-playroom.jpg",
+      "alt": "Ewa Stanek w gabinecie fizjoterapii dziecięcej – portret przygotowany z pomocą AI"
     },
     "noteTitle": "Spokojnie i konkretnie",
     "noteText": "Najpierw obserwacja i rozmowa. Potem decyzja, czy i jak działać dalej."
@@ -227,9 +227,9 @@
       "Terapia stóp"
     ],
     "image": {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Baby_%2820339%29.jpg",
-      "alt": "Niemowlę trzymane na rękach – zdjęcie demonstracyjne CC0",
-      "caption": "Zdjęcie demonstracyjne · docelowo podmień na własne"
+      "src": "/ewa-stanek-preview/assets/ewa/toddler-balance-hq.webp",
+      "alt": "Fizjoterapeutka wspiera małe dziecko podczas zabawy równoważnej – ilustracja AI",
+      "caption": "Fizjoterapia dziecięca poprzez zabawę · ilustracja AI"
     }
   },
   "development": {

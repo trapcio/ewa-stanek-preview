@@ -43,10 +43,12 @@
       "NDT Bobath Baby",
       "Wczesna interwencja"
     ],
-    "image": "/ewa-stanek-preview/assets/ewa/v2-hero-clinical.jpg",
+    "image": {
+      "src": "/ewa-stanek-preview/assets/ewa/portrait-clinic.jpg",
+      "alt": "Portret terapeutki w gabinecie dziecięcym – wizualizacja AI"
+    },
     "noteTitle": "Spokojnie i konkretnie",
-    "noteText": "Najpierw obserwacja i rozmowa. Potem decyzja, czy i jak działać dalej.",
-    "imageAlt": "Ewa Stanek – fizjoterapeutka dziecięca"
+    "noteText": "Najpierw obserwacja i rozmowa. Potem decyzja, czy i jak działać dalej."
   },
   "afterFirstVisit": {
     "eyebrow": "Po pierwszej wizycie",
@@ -224,8 +226,11 @@
       "PNF",
       "Terapia stóp"
     ],
-    "image": "/ewa-stanek-preview/assets/ewa/toddler-balance.jpg",
-    "imageAlt": "Ewa Stanek podczas pracy z dzieckiem"
+    "image": {
+      "src": "/ewa-stanek-preview/assets/ewa/toddler-balance.jpg",
+      "alt": "Ćwiczenie równowagi z dzieckiem – wizualizacja AI",
+      "caption": "Scena ilustracyjna fizjoterapii dziecięcej · AI"
+    }
   },
   "development": {
     "eyebrow": "Ciągły rozwój",

@@ -14,7 +14,7 @@
     "lead": "Doświadczenie, uważność i terapia dopasowana do dziecka.",
     "text": "Wspieram dzieci w rozwoju ruchowym, dobierając terapię indywidualnie do ich możliwości i potrzeb.",
     "image": {
-      "src": "https://holisfera.rzeszow.pl/userfiles/media/default/tmp_1.JPG",
+      "src": "/ewa-stanek-preview/assets/ewa/v3-hero-blazer.jpg",
       "alt": "Ewa Stanek – fizjoterapeutka dziecięca"
     }
   },
@@ -56,10 +56,22 @@
     "text": "Fizjoterapia dziecięca stale się rozwija, dlatego regularnie uczestniczę w kursach, szkoleniach i warsztatach. Pozwala mi to poszerzać wiedzę i korzystać z aktualnych podejść terapeutycznych.",
     "note": "Poniższa lista jest przykładowym szablonem do uzupełnienia.",
     "courses": [
-      {"title": "Kurs 1", "meta": "organizator · rok"},
-      {"title": "Warsztat 2", "meta": "organizator · rok"},
-      {"title": "Szkolenie 3", "meta": "organizator · rok"},
-      {"title": "Kurs 4", "meta": "organizator · rok"}
+      {
+        "title": "Kurs 1",
+        "meta": "organizator · rok"
+      },
+      {
+        "title": "Warsztat 2",
+        "meta": "organizator · rok"
+      },
+      {
+        "title": "Szkolenie 3",
+        "meta": "organizator · rok"
+      },
+      {
+        "title": "Kurs 4",
+        "meta": "organizator · rok"
+      }
     ]
   },
   "contact": {

@@ -44,8 +44,8 @@
       "Wczesna interwencja"
     ],
     "image": {
-      "src": "/ewa-stanek-preview/assets/ewa/portrait-clinic.jpg",
-      "alt": "Portret terapeutki w gabinecie dziecięcym – wizualizacja AI"
+      "src": "/ewa-stanek-preview/assets/ewa/v2-hero.jpg",
+      "alt": "Ewa Stanek – fizjoterapeutka dziecięca"
     },
     "noteTitle": "Spokojnie i konkretnie",
     "noteText": "Najpierw obserwacja i rozmowa. Potem decyzja, czy i jak działać dalej."
@@ -228,8 +228,8 @@
     ],
     "image": {
       "src": "/ewa-stanek-preview/assets/ewa/toddler-balance.jpg",
-      "alt": "Ćwiczenie równowagi z dzieckiem – wizualizacja AI",
-      "caption": "Scena ilustracyjna fizjoterapii dziecięcej · AI"
+      "alt": "Ewa podczas ćwiczeń równowagi z małym dzieckiem",
+      "caption": "Fizjoterapia dziecięca poprzez bezpieczną zabawę i ruch"
     }
   },
   "development": {
